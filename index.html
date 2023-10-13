@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="./assets/images/Iconologo.png"
+      href="./assets/images/Iconologo.webp"
       type="image/x-icon"
     />
     <link
@@ -14,99 +14,99 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Diversos</title>
   </head>
-
   <body>
     <!-- esto es el header -->
     <header>
+      <!-- esta es la barra de navegación -->
       <nav
-        class="navbar navbar-dark"
+        class="navbar navbar-expand-lg navbar-dark"
         style="
           background-image: linear-gradient(
             to right,
-            #6d4141 25%,
+            #6d4141 35%,
             #ae8585 65%,
             antiquewhite 95%
           );
         "
       >
         <div class="container-fluid">
-          <a class="navbar-brand text-center" href="/index.html">
-            <img
-              src="./assets/images/Diversos.png"
+          <a class="navbar-brand text-center" href="/index.html"
+            ><img
+              src="/assets/images/Diversos.webp"
               alt="Logo"
-              width="40"
+              width="30"
               height="24"
               class="d-inline-block align-text-top"
-            />
-            Diversos
-          </a>
+            />Diversos</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/Diagnósticos.html"
+                  >Diagnósticos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/Tratamientos.html"
+                  >Tratamientos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/Equipo.html"
+                  >Equipo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/Contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
-    <!-- esto es la barra de navegación -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-1">
-          <ul class="nav flex-sm-column display- navbar-dark">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >Home</a
-              >
-            </li>
-            <br />
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/Alumnos.html">Alumnos</a><br />
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/proyectos.html">Proyectos</a
-              ><br />
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/Equipo.html">Equipo</a><br />
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/Contacto.html">Contacto</a
-              ><br />
-            </li>
-          </ul>
-        </div>
-
-        <!-- este es el logo de fondo -->
-
-        <div class="col-12 col-md-11">
-          <img
-            src="./assets/images/Diversos.png"
-            class="img-fluid mx-auto d-block"
-            alt="Fondo Logo"
-          />
-        </div>
+    <!-- esto es el main -->
+    <main>
+      <!-- esta es la imagen de fondo -->
+      <div class="col-12 col-md-12">
+        <img
+          src="./assets/images/Diversos.webp"
+          class="img-fluid mx-auto d-block img-fluid"
+          alt="Fondo Logo"
+        />
       </div>
-    </div>
-
-    <!-- esta es la frase de fondo -->
-
-    <div class="container text-center my-5">
-      <h1>La inclusión es en Equipo</h1>
-    </div>
-
-    <!-- este es el footer -->
-
-    <footer>
-      <div class="container">
-        <div class="ratio ratio-21x9">
-          <iframe
-            src="https://www.youtube.com/embed/wex4aLnDZVw?si=y0KG-itt91KdZ0TM"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
+      <!-- esta es la frase de fondo -->
+      <div class="container text-center my-5">
+        <h1>La inclusión es en Equipo</h1>
       </div>
-    </footer>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -114,4 +114,18 @@
       crossorigin="anonymous"
     ></script>
   </body>
+  <!-- esto es el footer -->
+  <footer>
+    <div class="container-sm img-fluid">
+      <div class="ratio ratio-21x9">
+        <iframe
+          src="https://www.youtube.com/embed/wex4aLnDZVw?si=y0KG-itt91KdZ0TM"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </footer>
 </html>

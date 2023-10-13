@@ -1,0 +1,11 @@
+header {
+  .nav-link.active:hover {
+    color: $colorSecundario;
+  }
+  background-image: linear-gradient(
+    to right,
+    #6d4141 35%,
+    #ae8585 65%,
+    antiquewhite 95%
+  );
+}
