@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../assets/images/Iconologo.png"
+      href="../assets/images/Iconologo.webp"
       type="image/x-icon"
     />
     <link
@@ -15,119 +15,335 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Proyectos</title>
+    <title>Tratamientos</title>
   </head>
 
   <body>
+    <!-- esto es el header -->
     <header>
-      <nav class="navbar navbar-dark" style="background-color: #6d4141">
+      <!-- esta es la barra de navegación -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-center" href="/index.html">
-            <img
-              src="../assets/images/Diversos.png"
+          <a class="navbar-brand text-center" href="../index.html"
+            ><img
+              src="../assets/images/Diversos.webp"
               alt="Logo"
-              width="40"
+              width="30"
               height="24"
               class="d-inline-block align-text-top"
-            />
-            Diversos
-          </a>
+            />Diversos</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/Diagnósticos.html"
+                  >Diagnósticos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/Tratamientos.html"
+                  >Tratamientos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/Equipo.html"
+                  >Equipo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pages/Contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
 
+    <!-- esta es la imagen de fondo -->
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-1">
-          <ul class="nav flex-sm-column display- navbar-dark">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="../index.html"
-                >Home</a
-              >
-            </li>
-            <br />
-            <li class="nav-item">
-              <a class="nav-link" href="./Alumnos.html">Alumnos</a><br />
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./proyectos.html">Proyectos</a><br />
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Equipo.html">Equipo</a><br />
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./Contacto.html">Contacto</a><br />
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-12 col-md-11">
-          <img
-            src="../assets/images/Diversos.png"
-            class="img-fluid mx-auto d-block"
-            alt="Fondo Logo"
-          />
-        </div>
-      </div>
-
-      <div class="container text-center my-5">
-        <h1>La inclusión es en Equipo</h1>
+      <div class="col-12 col-md-12">
+        <img
+          src="../assets/images/Diversos.webp"
+          class="img-fluid mx-auto d-block"
+          alt="Fondo Logo"
+        />
       </div>
     </div>
 
-    <h1 style="color: antiquewhite">Proyectos</h1>
+    <!-- esta es la frase de fondo -->
+    <div class="container text-center my-5">
+      <h3>La inclusión es en Equipo</h3>
+    </div>
 
+    <!-- Este es el contenedor del tratamiento -->
+    <section class="container-fluid text-center">
+      <div id="Título">
+        <h1>Tratamientos</h1>
+      </div>
+    </section>
+
+    <!-- Estas son las tarjetas con los tratamientos -->
     <div class="container text-center">
       <div class="row row-cols-2">
-        <div class="col" style="background-color: rgba(233, 150, 122, 0.552)">
-          Pryecto 1
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quam
-            dolorem repellat voluptas culpa quaerat voluptatibus aliquam placeat
-            incidunt? Repudiandae obcaecati odit sunt cumque commodi
-            reprehenderit dolore doloribus, incidunt dicta similique! Inventore
-            vel in illum at praesentium est eos? Eaque voluptas aperiam
-            consectetur sit asperiores! Optio veritatis eaque reiciendis
-            voluptatibus?
+        <div class="col">
+          <h4>T.E.A. (Trastorno del Espectro Autista)</h4>
+          <p id="Tratamientos">
+            - Terapias de comportamiento y comunicación: Estas terapias se basan
+            en cambiar los comportamientos y enseñar nuevas habilidades a las
+            personas con TEA, usando técnicas como el refuerzo positivo, el
+            modelado, las instrucciones paso a paso y el análisis conductual
+            aplicado (ABA). <br /><br />
+            - Terapias educativas y basadas en la escuela: Estas terapias se
+            enfocan en proveer un ambiente educativo adecuado y adaptado a las
+            necesidades de las personas con TEA, usando métodos como el
+            currículo estructurado, el apoyo visual, la enseñanza
+            individualizada y la integración con otros niños <br /><br />
+            - Terapia para mejorar la atención conjunta: Esta terapia se centra
+            en desarrollar la capacidad de compartir el foco de atención con
+            otra persona, usando estrategias como el seguimiento de la mirada,
+            el uso de gestos, el juego compartido y la imitación. <br /><br />
+            - Tratamiento con medicamentos: Este tratamiento se usa para aliviar
+            algunos síntomas asociados al TEA, como la ansiedad, la depresión,
+            la hiperactividad, la impulsividad, la irritabilidad y los problemas
+            del sueño. No existe un medicamento específico para el TEA, sino que
+            se usan medicamentos que se emplean para otros trastornos mentales,
+            como los antidepresivos, los antipsicóticos, los estimulantes y los
+            ansiolíticos. <br /><br />
+            - Terapia nutricional: Esta terapia se basa en modificar la dieta de
+            las personas con TEA para mejorar su salud y su bienestar. Algunas
+            personas con TEA pueden tener alergias o intolerancias alimentarias,
+            deficiencias nutricionales o problemas gastrointestinales que pueden
+            afectar su comportamiento y su desarrollo. Algunas dietas que se han
+            propuesto para el TEA son la dieta libre de gluten y caseína, la
+            dieta libre de fenoles y salicilatos, la dieta cetogénica y la
+            suplementación con vitaminas y minerales. <br /><br />
+            - Terapia ocupacional: Esta terapia se ocupa de mejorar las
+            habilidades funcionales de las personas con TEA para que puedan
+            realizar las actividades cotidianas con mayor independencia y
+            satisfacción. Algunas áreas que aborda esta terapia son la
+            motricidad fina y gruesa, la coordinación visomotora, la percepción
+            sensorial, la organización espacial y temporal, la planificación
+            motora y el autocuidado. <br /><br />
+            - Terapia mediada por los padres: Esta terapia consiste en entrenar
+            a los padres o cuidadores de las personas con TEA para que puedan
+            aplicar estrategias de intervención en el hogar y en otros contextos
+            naturales. Esta terapia puede involucrar aspectos como el manejo
+            conductual, el juego interactivo, el desarrollo del lenguaje y la
+            estimulación cognitiva. <br /><br />
           </p>
         </div>
-        <div class="col" style="background-color: rgba(233, 150, 122, 0.643)">
-          Pryecto 2
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quam
-            dolorem repellat voluptas culpa quaerat voluptatibus aliquam placeat
-            incidunt? Repudiandae obcaecati odit sunt cumque commodi
-            reprehenderit dolore doloribus, incidunt dicta similique! Inventore
-            vel in illum at praesentium est eos? Eaque voluptas aperiam
-            consectetur sit asperiores! Optio veritatis eaque reiciendis
-            voluptatibus?
+
+        <div class="col">
+          <h4>T.G.D. (Trastorno Generalizado del Desarrollo)</h4>
+          <p id="Tratamientos">
+            - Terapias de comportamiento y comunicación: Estas terapias buscan
+            modificar los comportamientos y enseñar nuevas habilidades a las
+            personas con TGD, usando técnicas como el refuerzo positivo, el
+            modelado, las instrucciones paso a paso y el análisis conductual
+            aplicado. <br /><br />
+            - Terapias educativas y basadas en la escuela: Estas terapias se
+            enfocan en proveer un ambiente educativo adecuado y adaptado a las
+            necesidades de las personas con TGD, usando métodos como el
+            currículo estructurado, el apoyo visual, la enseñanza
+            individualizada y la integración con otros niños. <br /><br />
+            - Terapia para mejorar la atención conjunta: Esta terapia se centra
+            en desarrollar la capacidad de compartir el foco de atención con
+            otra persona, usando estrategias como el seguimiento de la mirada,
+            el uso de gestos, el juego compartido y la imitación. <br /><br />
+            - Tratamiento con medicamentos: Este tratamiento se usa para aliviar
+            algunos síntomas asociados al TGD, como la ansiedad, la depresión,
+            la hiperactividad, la impulsividad, la irritabilidad y los problemas
+            del sueño. No hay un medicamento específico para el TGD, sino que se
+            usan medicamentos que se emplean para otros trastornos mentales,
+            como los antidepresivos, los antipsicóticos, los estimulantes y los
+            ansiolíticos. <br /><br />
+            - Terapia nutricional: Esta terapia se basa en modificar la dieta de
+            las personas con TGD para mejorar su salud y su bienestar. Algunas
+            personas con TGD pueden tener alergias o intolerancias alimentarias,
+            deficiencias nutricionales o problemas gastrointestinales que pueden
+            afectar su comportamiento y su desarrollo. Algunas dietas que se han
+            propuesto para el TGD son la dieta libre de gluten y caseína, la
+            dieta libre de fenoles y salicilatos, la dieta cetogénica y la
+            suplementación con vitaminas y minerales. <br /><br />
+            - Terapia ocupacional: Esta terapia se ocupa de mejorar las
+            habilidades funcionales de las personas con TGD para que puedan
+            realizar las actividades cotidianas con mayor independencia y
+            satisfacción. Algunas áreas que aborda esta terapia son la
+            motricidad fina y gruesa, la coordinación visomotora, la percepción
+            sensorial, la organización espacial y temporal, la planificación
+            motora y el autocuidado. <br /><br />
+            - Terapia mediada por los padres: Esta terapia consiste en entrenar
+            a los padres o cuidadores de las personas con TGD para que puedan
+            aplicar estrategias de intervención en el hogar y en otros contextos
+            naturales. Esta terapia puede involucrar aspectos como el manejo
+            conductual, el juego interactivo, el desarrollo del lenguaje y la
+            estimulación cognitiva. <br /><br />
           </p>
         </div>
-        <div class="col" style="background-color: rgba(233, 150, 122, 0.643)">
-          Pryecto 3
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quam
-            dolorem repellat voluptas culpa quaerat voluptatibus aliquam placeat
-            incidunt? Repudiandae obcaecati odit sunt cumque commodi
-            reprehenderit dolore doloribus, incidunt dicta similique! Inventore
-            vel in illum at praesentium est eos? Eaque voluptas aperiam
-            consectetur sit asperiores! Optio veritatis eaque reiciendis
-            voluptatibus?
+
+        <div class="col">
+          <h4>Síndrome de Down</h4>
+          <p id="Tratamientos">
+            - Brindarles una atención médica adecuada desde el nacimiento,
+            realizando los controles y las intervenciones necesarias para
+            prevenir o tratar las posibles complicaciones de salud que puedan
+            presentar. <br /><br />
+            - Ofrecerles una estimulación temprana desde los primeros meses de
+            vida, mediante actividades lúdicas y educativas que favorezcan su
+            desarrollo motor, sensorial, cognitivo y comunicativo. <br /><br />
+            - Incluirlos en el sistema educativo regular, adaptando los
+            contenidos y las metodologías a sus necesidades y capacidades, y
+            promoviendo su interacción con otros niños y niñas. <br /><br />
+            - Respetar sus derechos, intereses y preferencias, reconociendo su
+            individualidad y diversidad, y fomentando su autonomía y
+            participación en la familia, la escuela y la comunidad. <br /><br />
+            - Protegerlos de cualquier forma de discriminación, violencia o
+            abuso, y sensibilizar a la sociedad sobre la importancia de aceptar
+            y valorar a las personas con síndrome de Down como seres humanos
+            dignos y capaces.
           </p>
         </div>
-        <div class="col" style="background-color: rgba(233, 150, 122, 0.643)">
-          Pryecto 4
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam quam
-            dolorem repellat voluptas culpa quaerat voluptatibus aliquam placeat
-            incidunt? Repudiandae obcaecati odit sunt cumque commodi
-            reprehenderit dolore doloribus, incidunt dicta similique! Inventore
-            vel in illum at praesentium est eos? Eaque voluptas aperiam
-            consectetur sit asperiores! Optio veritatis eaque reiciendis
-            voluptatibus?
+
+        <div class="col">
+          <h4>Dislexia</h4>
+          <p id="Tratamientos">
+            - Fomentar la conciencia fonológica, es decir, la capacidad de
+            identificar y manipular los sonidos que forman las palabras. Esto se
+            puede hacer mediante juegos, rimas, canciones, etc. <br /><br />
+            - Enseñar la relación entre los sonidos y las letras (fonética), y
+            entre las letras y las palabras (ortografía). Esto se puede hacer
+            mediante ejercicios de asociación, clasificación, copia, dictado,
+            etc. <br /><br />
+            - Practicar la lectura en voz alta, con textos adecuados al nivel y
+            al interés del lector. Esto ayuda a mejorar la precisión, la
+            velocidad y la expresión de la lectura (fluidez). <br /><br />
+            - Desarrollar la comprensión lectora, mediante preguntas, resúmenes,
+            inferencias, etc. Esto ayuda a mejorar la capacidad de entender el
+            significado de lo que se lee. <br /><br />
+            - Utilizar recursos visuales, auditivos y táctiles para apoyar el
+            aprendizaje. Por ejemplo, usar colores, imágenes, sonidos, gestos,
+            etc. <br /><br />
+            - Motivar y reforzar al lector, reconociendo sus avances y sus
+            esfuerzos. Esto ayuda a aumentar su autoestima y su confianza.
+          </p>
+        </div>
+
+        <div class="col">
+          <h4>Retraso Madurativo</h4>
+          <p id="Tratamientos">
+            - Una evaluación exhaustiva y periódica del nivel de desarrollo del
+            niño, para identificar sus fortalezas y debilidades, y establecer
+            objetivos y planes de intervención adecuados. <br /><br />
+            - Una atención médica especializada, para descartar o tratar
+            posibles problemas de salud que puedan interferir en el desarrollo,
+            como pérdida de audición, epilepsia, parálisis cerebral, etc.
+            <br /><br />
+            - Una estimulación temprana, desde los primeros meses de vida,
+            mediante actividades lúdicas y educativas que favorezcan el
+            desarrollo motor, sensorial, cognitivo y comunicativo del niño.
+            <br /><br />
+            - Una terapia conductual, para ayudar al niño a adquirir hábitos de
+            autocuidado, aseo, alimentación y seguridad personal, así como a
+            regular sus emociones y comportamientos. <br /><br />
+            - Una terapia del lenguaje y la comunicación, con un logopeda, para
+            mejorar las habilidades de comprensión y expresión oral y escrita
+            del niño, así como su interacción social con otros. <br /><br />
+            - Una terapia de motricidad gruesa y fina, con un fisioterapeuta u
+            otro profesional, para mejorar la coordinación, el equilibrio, la
+            fuerza y la destreza del niño en sus movimientos corporales.
+            <br /><br />
+            - Una educación adaptada a las necesidades y capacidades del niño,
+            con un pedagogo u otro profesional, para facilitar su aprendizaje
+            académico y su integración escolar. <br /><br />
+            - Un apoyo familiar y social, para brindar al niño un ambiente
+            afectivo, estimulante y seguro, donde se respeten sus derechos e
+            intereses, se reconozcan sus avances y esfuerzos, y se fomenten su
+            autonomía y participación.
+          </p>
+        </div>
+
+        <div class="col">
+          <h4>Asperger</h4>
+          <p id="Tratamientos">
+            - Terapia de manejo de la conducta: Esta terapia se basa en enseñar
+            al niño o al adulto con Asperger a controlar sus impulsos, a regular
+            sus emociones y a adaptarse a las situaciones sociales. Se utilizan
+            técnicas como el refuerzo positivo, el modelado, el moldeamiento y
+            el encadenamiento para modificar las conductas problemáticas y
+            fomentar las conductas adecuadas. <br /><br />
+            - Terapia cognitivo-conductual: Esta terapia se enfoca en cambiar
+            los patrones de pensamiento y creencias negativas que pueden generar
+            ansiedad, depresión o baja autoestima en las personas con Asperger.
+            Se les ayuda a identificar y cuestionar sus pensamientos
+            irracionales, a desarrollar estrategias de afrontamiento y a mejorar
+            sus habilidades sociales. <br /><br />
+            - Intervención temprana: Esta intervención se dirige a los niños con
+            Asperger desde los primeros años de vida, con el objetivo de
+            estimular su desarrollo cognitivo, lingüístico, motor y emocional.
+            Se realizan actividades lúdicas y educativas que favorecen el
+            aprendizaje, la comunicación, la interacción y la autonomía del
+            niño. <br /><br />
+            - Terapias educativas y basadas en la escuela: Estas terapias se
+            realizan en el ámbito escolar, con la colaboración de los
+            profesores, los padres y los compañeros. Se trata de adaptar el
+            currículo, la metodología y la evaluación a las necesidades y
+            capacidades del alumno con Asperger, así como de proporcionarle un
+            ambiente seguro, estructurado y estimulante. Se pueden utilizar
+            recursos como el apoyo visual, el aprendizaje cooperativo o los
+            programas informáticos. <br /><br />
+            - Terapia para mejorar la atención conjunta: Esta terapia se orienta
+            a mejorar la capacidad de compartir la atención con otra persona
+            sobre un objeto o una actividad. Se considera una habilidad básica
+            para el desarrollo del lenguaje y la socialización. Se utilizan
+            juegos, juguetes, libros o imágenes que capten el interés del niño o
+            del adulto con Asperger, y se le anima a mirar, señalar, comentar o
+            preguntar sobre lo que ve. <br /><br />
+            - Tratamiento con medicamentos: Los medicamentos no son un
+            tratamiento específico para el síndrome de Asperger, pero pueden
+            ayudar a aliviar algunos síntomas asociados como la irritabilidad,
+            la agresividad, la ansiedad o la hiperactividad. Algunos de los
+            medicamentos que se pueden utilizar son antipsicóticos como la
+            risperidona o el aripiprazol, antidepresivos como la fluoxetina o la
+            sertralina, o estimulantes como el metilfenidato o el atomoxetina.
+            <br /><br />
+            - Terapia nutricional: Algunas personas con Asperger pueden tener
+            problemas alimentarios debido a su sensibilidad sensorial, sus
+            preferencias selectivas o sus rituales. Esto puede afectar a su
+            salud física y mental. La terapia nutricional consiste en evaluar el
+            estado nutricional del paciente, diseñar un plan alimentario
+            equilibrado y personalizado, y educar al paciente y a su familia
+            sobre hábitos alimentarios saludables. <br /><br />
+            - Terapia ocupacional: Esta terapia se enfoca en mejorar las
+            habilidades funcionales del paciente para realizar las actividades
+            cotidianas que le permitan tener una mayor independencia y calidad
+            de vida. Se trabajan aspectos como la coordinación motora, la
+            percepción sensorial, la organización espacial o temporal, o la
+            planificación y ejecución de tareas.
           </p>
         </div>
       </div>

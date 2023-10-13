@@ -26,3 +26,18 @@ body {
   color: antiquewhite;
   justify-content: center;
 }
+
+#Título h1 {
+  color: $colorTerceario;
+}
+
+h4 {
+  color: $colorP;
+}
+
+#Tratamientos {
+  color: $colorP;
+  border-radius: 15px;
+  background: #ae8585;
+  box-shadow: 10px -10px 20px #947171, -10px 10px 20px #c89999;
+}

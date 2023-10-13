@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +21,21 @@ body {
   font-size: 1rem;
   color: antiquewhite;
   justify-content: center;
+}
+
+#Título h1 {
+  color: antiquewhite;
+}
+
+h4 {
+  color: rgb(37, 37, 37);
+}
+
+#Tratamientos {
+  color: rgb(37, 37, 37);
+  border-radius: 15px;
+  background: #ae8585;
+  box-shadow: 10px -10px 20px #947171, -10px 10px 20px #c89999;
 }
 
 header {

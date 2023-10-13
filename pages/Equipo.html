@@ -1,39 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/styles.css" />
     <link
       rel="shortcut icon"
-      href="../assets/images/Iconologo.png"
+      href="../assets/images/Iconologo.webp"
       type="image/x-icon"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Equipo</title>
   </head>
   <body>
-      <header>
-        <h1 id="TítuloPágina">Diversos</h1>
-        <img id="Loguito" src="../assets/images/Diversos.png" alt="LogoPagina" />
-        <br /><br /><br />
-      </header>
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <br /><br /><br />
-          <li><a href="./Alumnos.html">Alumnos</a></li>
-          <br /><br /><br />
-          <li><a href="./Proyectos.html">Proyectos</a></li>
-          <br /><br /><br />
-          <li><a href="./Equipo.html">Equipo</a></li>
-          <br /><br /><br />
-          <li><a href="./Contacto.html">Contacto</a></li>
-          <br /><br /><br />
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-center" href="../index.html"
+            ><img
+              src="../assets/images/Diversos.webp"
+              alt="Logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />Diversos</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Diagnósticos.html"
+                  >Diagnósticos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Tratamientos.html"
+                  >Tratamientos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Equipo.html"
+                  >Equipo</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./Contacto.html"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-     <div>
+    </header>
+    <!-- Esta es la lista del Equipo -->
+    <section class="container-fluid">
+      <div>
         <h1>Equipo</h1>
-        <br /><br /><br />
         <ul>
           <li>Dirección General</li>
           <li>Secretaria</li>
@@ -42,8 +92,11 @@
           <li>Apoyo</li>
         </ul>
       </div>
-      <br /><br /><br />
-      <div>
+    </section>
+
+    <!-- Estos son los Profesionales -->
+    <aside>
+      <div class="container-fluid">
         <ul>
           <li>Prof. Gómez, Laura Melisa Itatí</li>
           <li>Prof. Escalada, Claudia</li>
@@ -52,7 +105,29 @@
           <li>Prof. Nicola, Valeria</li>
           <li>Prof. Sosa Neris</li>
         </ul>
-      </div> 
-    </header>
+      </div>
+    </aside>
+
+    <!-- esta es la imagen de fondo -->
+    <div class="container-fluid">
+      <div class="col-12 col-md-12">
+        <img
+          src="../assets/images/Diversos.webp"
+          class="img-fluid mx-auto d-block"
+          alt="Fondo Logo"
+        />
+      </div>
+    </div>
+
+    <!-- esta es la frase de fondo -->
+    <div class="container text-center my-5">
+      <h3>La inclusión es en Equipo</h3>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
