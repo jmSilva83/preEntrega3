@@ -8,4 +8,9 @@ header {
     #ae8585 65%,
     antiquewhite 95%
   );
+  background-attachment: fixed;
+
+  .navbar-brand:hover {
+    color: $colorSecundario;
+  }
 }

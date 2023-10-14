@@ -15,10 +15,7 @@ body {
     $colorSecundario 65%,
     $colorTerceario 95%
   );
-}
-
-.navbar-brand:hover {
-  color: $colorSecundario;
+  background-attachment: fixed;
 }
 
 .col {
@@ -29,15 +26,53 @@ body {
 
 #Título h1 {
   color: $colorTerceario;
+  justify-content: space-around;
+  padding-bottom: 100px;
 }
 
-h4 {
-  color: $colorP;
+h5 {
+  color: $colorSecundario;
 }
 
 #Tratamientos {
   color: $colorP;
   border-radius: 15px;
   background: #ae8585;
-  box-shadow: 10px -10px 20px #947171, -10px 10px 20px #c89999;
+  box-shadow: inset -10px 10px 5px #947171, inset 10px -10px 5px #c89999;
+}
+
+ul {
+  color: $colorP;
+
+  li {
+    list-style: none;
+  }
+}
+
+#mainTeam {
+  justify-content: space-around;
+  width: $ancho;
+  display: flex;
+
+  div {
+    display: contents;
+    overflow: auto;
+    width: $ancho / 3;
+  }
+}
+
+i {
+  justify-content: center;
+  color: $colorP;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+#contacto p {
+  justify-content: space-around;
+  display: flex;
+  width: $ancho / 2;
+  border-radius: 15px;
+  background: #ae8585;
+  box-shadow: inset -10px 10px 5px #947171, inset 10px -10px 5px #c89999;
 }
